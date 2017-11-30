@@ -121,4 +121,11 @@ public class ViewPagerArrowIndicator extends LinearLayout {
         mLeftArrow.setImageResource(leftArrowResId);
         mRightArrow.setImageResource(rightArrowResId);
     }
+
+    public void setArrowColor(int color){
+        mLeftArrow.setColorFilter(color);
+        mRightArrow.setColorFilter(color);
+    }
+
+
 }
